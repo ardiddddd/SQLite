@@ -20,6 +20,14 @@ public class Producto {
 
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public Producto(String nombre, int cantidad, float precio) {
         this.nombre = nombre;
         this.cantidad = cantidad;
